@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f0f0eb" />
+    <meta
+      name="description"
+      content="Thanigaivel V is an independent multidisciplinary designer based in India, working worldwide across digital products, websites, visual identities and motion."
+    />
+    <title>Thanigai — Independent Designer</title>
+    <link rel="icon" href="assets/mark.svg" type="image/svg+xml" />
+    <link
+      rel="preload"
+      href="assets/fonts/instrument-serif-latin-400-normal.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="library.js" defer></script>
+    <script src="portfolio.js" defer></script>
+    <script src="form.js" defer></script>
+  </head>
+  <body id="top">
+    <a class="skip" href="#main">Skip to content</a>
+    <div class="layout">
+      <aside class="rail">
+        <div class="rail-head">
+          <a class="brand" href="#top" aria-label="Thanigai, home"
+            ><span class="mark" aria-hidden="true"></span>Thanigai<span
+              >.</span
+            ></a
+          ><button
+            type="button"
+            class="menu"
+            aria-expanded="false"
+            aria-controls="rail-content"
+          >
+            Menu <span aria-hidden="true">☰</span>
+          </button>
+        </div>
+        <div id="rail-content">
+          <div class="identity">
+            <div id="portrait" class="portrait" aria-hidden="true">
+              <span>Tv.</span>
+            </div>
+            <div class="identity-text">
+              <p class="name">Thanigaivel V</p>
+              <p class="role">Independent multidisciplinary designer</p>
+            </div>
+            <p class="bio">
+              A design partner for businesses turning complex ideas into clear
+              experiences.
+            </p>
+          </div>
+          <nav class="section-nav" aria-label="Page sections">
+            <a href="#work" aria-current="location"
+              >Work library <span>16</span></a
+            ><a href="#approach">Approach</a><a href="#services">Capabilities</a
+            ><a href="#about">About me</a
+            ><a href="#contact">Project enquiries</a>
+          </nav>
+          <div class="rail-foot">
+            <a class="availability" href="#contact"
+              ><i></i> Enquire about availability</a
+            >
+            <p>India · Working worldwide</p>
+            <div>
+              <a href="mailto:thanigaivel8825@gmail.com"
+                >Email <span class="ne" aria-hidden="true"></span></a
+              ><a href="https://www.linkedin.com/in/thanigaivel8825/"
+                >LinkedIn <span class="ne" aria-hidden="true"></span
+              ></a>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <main id="main">
+        <div class="topline">
+          <span
+            ><b class="book-icon" aria-hidden="true"></b> Design library</span
+          ><a href="#contact"
+            >Get in touch <span class="ne" aria-hidden="true"></span
+          ></a>
+        </div>
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <h1 id="hero-title">
+              You built<br />something great.
+              <em>I make sure<br />people see it.</em>
+            </h1>
+            <p>
+              I’m Thanigai. I work with founders and teams to give their
+              products, brands and ideas a clear, distinctive form.
+            </p>
+            <a class="work-link" href="#work"
+              >Explore the library <span aria-hidden="true">↓</span></a
+            >
+          </div>
+          <figure class="study">
+            <div class="plot">
+              <i class="cross tl"></i><i class="cross tr"></i
+              ><i class="cross bl"></i><i class="cross br"></i
+              ><canvas
+                id="form"
+                width="600"
+                height="620"
+                role="img"
+                aria-label="An interwoven metallic knot, an interactive form study"
+              ></canvas>
+            </div>
+            <figcaption>
+              <span>Drag to rotate</span
+              ><button
+                type="button"
+                id="rotate"
+                aria-label="Rotate the form study"
+              >
+                Rotate ⟳
+              </button>
+            </figcaption>
+          </figure>
+        </section>
+        <section class="work" id="work" aria-labelledby="work-title">
+          <div class="section-head">
+            <h2 id="work-title">Work library<sup>16</sup></h2>
+            <div class="views" role="group" aria-label="Project layout">
+              <button
+                data-view="grid"
+                aria-label="Grid view"
+                aria-pressed="true"
+              >
+                <i class="grid-icon"></i></button
+              ><button
+                data-view="list"
+                aria-label="List view"
+                aria-pressed="false"
+              >
+                <i class="list-icon"></i>
+              </button>
+            </div>
+          </div>
+          <div
+            class="filters"
+            role="group"
+            aria-label="Filter the library"
+          ></div>
+          <p class="sr" id="result-count" role="status"></p>
+          <div id="projects"></div>
+        </section>
+        <section id="approach" class="editorial">
+          <p class="kicker">Design philosophy</p>
+          <h2>Start with the decision<br /><em>someone needs to make.</em></h2>
+          <div class="process">
+            <div>
+              <h3>Understand the business</h3>
+              <p>
+                Before I draw, I ask what needs to change. Who is this for? What
+                do they need to understand, choose or do?
+              </p>
+            </div>
+            <div>
+              <h3>Make it tangible</h3>
+              <p>
+                A sketch, a prototype or a few seconds of motion gives us
+                something specific to discuss. That’s where the useful questions
+                begin.
+              </p>
+            </div>
+            <div>
+              <h3>Follow it through</h3>
+              <p>
+                I carry the idea into the details, from responsive layouts and
+                states to the files your team will use next.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="services" class="editorial">
+          <p class="kicker">Capabilities</p>
+          <h2>Ways we can work together.</h2>
+          <div id="capabilities"></div>
+        </section>
+        <section id="about" class="editorial about">
+          <div>
+            <p class="kicker">About me</p>
+            <h2>Thanigaivel V</h2>
+            <p class="location">
+              Based in India.<br />Working with clients worldwide.
+            </p>
+          </div>
+          <div class="about-copy">
+            <p>
+              I’m an independent multidisciplinary designer working at the
+              intersection of design, technology and business.
+            </p>
+            <p>
+              I work across digital products, websites, visual identities and
+              motion, helping businesses turn complex ideas into experiences
+              that are clear, purposeful and memorable.
+            </p>
+            <p>
+              I believe good design starts with understanding what a business is
+              trying to achieve and making that vision easier for people to
+              understand, experience and trust.
+            </p>
+            <a
+              class="inline"
+              href="https://www.linkedin.com/in/thanigaivel8825/"
+              >Find me on LinkedIn <span class="ne" aria-hidden="true"></span
+            ></a>
+          </div>
+        </section>
+        <section id="testimonials" class="editorial" hidden>
+          <p class="kicker">Client perspectives</p>
+          <h2>In their words.</h2>
+          <div id="quotes"></div>
+        </section>
+        <footer id="contact">
+          <p class="kicker">Project enquiries</p>
+          <h2>What are you<br /><em>working on?</em></h2>
+          <p>
+            Tell me what you’re building, who it’s for and where you could use a
+            design partner.
+          </p>
+          <div class="email-row">
+            <a href="mailto:thanigaivel8825@gmail.com"
+              >thanigaivel8825@gmail.com
+              <span class="ne" aria-hidden="true"></span></a
+            ><button id="copy" type="button" aria-label="Copy email address">
+              Copy</button
+            ><span id="copy-status" role="status"></span>
+          </div>
+          <div class="footer-bottom">
+            <span>Thanigaivel V</span><a href="#top">Back to top ↑</a>
+          </div>
+        </footer>
+      </main>
+    </div>
+    <dialog id="detail" aria-labelledby="detail-title">
+      <div class="dialog-bar">
+        <span class="kicker">Library record</span
+        ><button type="button" class="close" aria-label="Close project">
+          ×
+        </button>
+      </div>
+      <div id="detail-body"></div>
+      <div class="dialog-foot">
+        <button id="previous">← Previous</button
+        ><button id="next">Next project →</button>
+      </div>
+    </dialog>
+  </body>
+</html>
